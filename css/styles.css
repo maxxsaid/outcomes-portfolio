@@ -639,7 +639,12 @@ progress {
   max-width: 100%;
   height: auto;
 }
-
+.img-profile{
+    max-width: 15rem;
+    max-height: 15rem;
+    object-fit: cover;
+    
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -8536,6 +8541,7 @@ fieldset:disabled .btn {
 
 .rounded-circle {
   border-radius: 50% !important;
+  border: 0.2rem solid rgb(100,161,157)
 }
 
 .rounded-pill {
