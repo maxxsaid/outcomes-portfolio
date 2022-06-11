@@ -274,6 +274,9 @@ a {
   color: #64a19d;
   text-decoration: underline;
 }
+.calcio {
+  text-decoration: none;
+}
 a:hover {
   color: #50817e;
 }
@@ -639,11 +642,10 @@ progress {
   max-width: 100%;
   height: auto;
 }
-.img-profile{
-    max-width: 15rem;
-    max-height: 15rem;
-    object-fit: cover;
-    
+.img-profile {
+  max-width: 15rem;
+  max-height: 15rem;
+  object-fit: cover;
 }
 .img-thumbnail {
   padding: 0.25rem;
@@ -8541,7 +8543,7 @@ fieldset:disabled .btn {
 
 .rounded-circle {
   border-radius: 50% !important;
-  border: 0.2rem solid rgb(100,161,157)
+  border: 0.2rem solid rgb(100, 161, 157);
 }
 
 .rounded-pill {
@@ -12047,9 +12049,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: 
-    rgba(0, 0, 0, 1)
-  ;
+  background: rgba(0, 0, 0, 1);
 }
 .about-section p {
   margin-bottom: 5rem;
