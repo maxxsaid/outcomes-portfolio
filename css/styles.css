@@ -4492,7 +4492,7 @@ fieldset:disabled .btn {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.7rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -8368,7 +8368,7 @@ fieldset:disabled .btn {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(240, 251, 249, 0.7) !important;
 }
 
 .text-reset {
@@ -11935,24 +11935,24 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.75);
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 1);
   }
   #mainNav .nav-link:active {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.98);
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000;
+    color: rgba(36, 36, 36, 1);
   }
   #mainNav.navbar-shrink .nav-link {
     color: #000;
@@ -12010,7 +12010,7 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(240, 251, 249, 1), rgba(240, 251, 249, 0.3));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -12047,12 +12047,9 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(
-    to bottom,
-    #000 0%,
-    rgba(0, 0, 0, 0.9) 75%,
-    rgba(0, 0, 0, 0.8) 100%
-  );
+  background: 
+    rgba(0, 0, 0, 1)
+  ;
 }
 .about-section p {
   margin-bottom: 5rem;
