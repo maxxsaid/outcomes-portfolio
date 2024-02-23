@@ -274,7 +274,12 @@ a {
   color: #64a19d;
   text-decoration: underline;
 }
-.calcio {
+.calcio,
+.Intellihot,
+.iftv,
+.instagram,
+.spotify,
+.linkedIn {
   text-decoration: none;
 }
 a:hover {
@@ -2887,7 +2892,9 @@ textarea.form-control-lg {
   border-bottom-right-radius: 0;
 }
 .input-group
-  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+    .valid-feedback
+  ):not(.invalid-tooltip):not(.invalid-feedback) {
   margin-left: -1px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -4494,7 +4501,7 @@ fieldset:disabled .btn {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.7rem;
+  font-size: 2rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -12048,7 +12055,7 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 2rem;
   background: rgba(0, 0, 0, 1);
 }
 .about-section p {
